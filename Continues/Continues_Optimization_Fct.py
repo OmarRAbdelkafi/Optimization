@@ -6,7 +6,7 @@ from scipy import optimize
 
 def f_nd(arr):
     '''
-        5D her in arr from 0 to 4
+        5D here in arr from 0 to 4
     '''
     return arr[0] + (16 * arr[1]) - arr[2] + (arr[3] * arr[4])
 
@@ -84,9 +84,9 @@ def Multistart_Local_search():
     print("The best result is:", best)
 
 def main():
-    Continues_Optimization_1D()
+    #Continues_Optimization_1D()
     #Continues_Optimization_2D()
-    #Multistart_Local_search()
+    Multistart_Local_search()
 
 if __name__ == '__main__':
     main()
