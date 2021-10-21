@@ -1,9 +1,3 @@
-# Optimization
-This repository contain optimization algorithm and problem.
+# GRAPH COLORIATION
 
-It is composed following the problem nature :
-- Combinatorial
-- Linear programming
-- Simulation
-
-PHD THESIS : https://www.theses.fr/2016MULH9578
+- Frequency allocation (on construction...)
