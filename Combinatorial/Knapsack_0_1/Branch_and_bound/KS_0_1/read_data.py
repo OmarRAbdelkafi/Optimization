@@ -3,7 +3,7 @@
 import numpy as np
 
 def data_KS():
-    fic = open("KS_0_1/data/KP_10_1.in","r")
+    fic = open("KS_0_1/data/KP_30_1.in","r")
 
     size = int(fic.readline())
     p_w = np.zeros((4,size,))

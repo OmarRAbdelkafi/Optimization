@@ -49,4 +49,7 @@ EDA (Exploratory Data Analysis)
 """
 Solve with exact method :
 """
-Branch_and_Bound(size, limit, p_w, Greedy_sol)
+best_solution, best_profit, best_weight = Branch_and_Bound(size, limit, p_w, Greedy_sol)
+print("\n Exact result ------------\n")
+print(best_solution)
+print("with profit = ", -best_profit, "and weight = ", best_weight)
