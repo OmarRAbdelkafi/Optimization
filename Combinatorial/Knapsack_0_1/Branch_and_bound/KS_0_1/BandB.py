@@ -55,11 +55,6 @@ def Branch_and_Bound(size, limit, p_w, Greedy_sol):
                     LC = Tree[i,1]
                     index_LC_node = i
 
-
-        #last_min_node = np.where(Tree[:,1] == np.amin(Tree[:,1]))
-        #for i in range(len(last_min_node[0])):
-        #    if Tree[last_min_node[0][i], 5] == False:
-        #        index_LC_node = last_min_node[0][i]
         print("LC node:", index_LC_node)
 
         x = Tree[index_LC_node, 4] + 1 #Variable
